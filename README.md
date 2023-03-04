@@ -9,7 +9,7 @@
 * `cd simpt`
 * создать .env файл с содержимым: 
     ```
-    SECRET_KEY=secter_key_example
+    SECRET_KEY=secret_key_example
     DEBUG=True
     ```
 * `python manage.py migrate`
