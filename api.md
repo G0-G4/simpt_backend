@@ -29,7 +29,7 @@
         - `description` (optional): Task description
         - `section` (optional): Task section ID
         - `status` (optional): Task status ID, default `todo`
-        - `priority` (required): Task priority
+        - `priority` (optional): Task priority
         - `start_datetime` (required): Start datetime in ISO format (yyyy-MM-dd'T'HH:mm:ss.SSSXXX)
         - `due_datetime` (optional): Due datetime in ISO format (yyyy-MM-dd'T'HH:mm:ss.SSSXXX)
 5. PATCH /api/tasks/<task_id>/
